@@ -3,8 +3,18 @@
     padding: 0;
     font-family: 'Poppins',sans-serif;
 }
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  } 
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
 .container{
-    background: black;
+    min-height: 700px;
+    background-color: black;
 }
 .nav{
     background: #333;
@@ -21,9 +31,9 @@
     line-height: 40px;
 }
 .backgroud{
-    width: auto;
+    width: 100%;
     background-image: url("pic/backgroud/bacgroud1.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     top: 0;
     left: 0;
@@ -50,14 +60,14 @@
 }
 .warpper{
     position: relative;
-    top: 450px;
     z-index: 10000;
+    height: 700px;
     text-align: center;
 }
 .warpper .list{
     margin-bottom: 20px;
     position: relative;
-    top: 0px;
+    top: 70%;
     display: inline-block;
     list-style-type: none;
 }
@@ -71,8 +81,13 @@
 }
 .list button:hover{
     height: 45px;
-    width: 130px;
+    width: 120px;
     border-radius: 6px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    transform: translateY(-10px);
 }
 .list button a{
     text-decoration: none;
@@ -84,30 +99,19 @@
     border-style: ridge;
     background-image: linear-gradient(to right,#ffbf00,#ff7dc5);
 }
-.btn_iphone a{
-    
-}.btn_macbook{
+.btn_macbook{
     border-style: ridge;
     background-image: linear-gradient(to right,#009cbe,#00e2f8);
 }
-.btn_macbook a{
-    
-}.btn_ipad{
+.btn_ipad{
     border-style: ridge;
     background-image: linear-gradient(to right,#f136ff,#7225fc);
 }
-.btn_ipad a{
-    
-}.btn_imac{
+.btn_imac{
     border-style: ridge;
     background-image: linear-gradient(to right,#00f386,#cbe100);
 }
-.btn_imac a{
-    
-}.btn_airpods{
+.btn_airpods{
     border-style: ridge;
     background-image: linear-gradient(to right,#00c0ff,#bccaff);
-}
-.btn_airpods a{
-    
 }

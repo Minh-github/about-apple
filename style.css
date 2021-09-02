@@ -22,7 +22,7 @@
   }
   .header .logo{
     width: 100%;
-    height: 40px;
+    height: 50px;
     background: #333333;
     text-align: center;
   }
@@ -33,7 +33,7 @@
   }
   .header .menu{
     position: fixed;
-    height: 30px;
+    height: 40px;
     width: 100%;
     display: flex;
     transition: 0.3s;
@@ -182,19 +182,10 @@
         left: -400%;
     }
   }
-  .content__iphone{
-
-  }
-  .content__iphone .iphone__list{
-
-  }  
   .content__iphone .iphone__list p{
     font-weight: 600;
     font-size: 25px;
     padding: 20px 0;
-  }
-  .iphone__list .series{
-    
   }
   .series .iphones{
     list-style-type: none;
@@ -226,6 +217,8 @@
     cursor: context-menu;
   }
   .footer{
+    position: relative;
+    bottom: 0;
     width: 100%;
     height: 40px;
     background-color: #333;
