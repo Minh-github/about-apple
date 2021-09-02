@@ -42,7 +42,7 @@
       </div>
       <div class="menu">
         <ul>
-          <li><a class="icons" href="index.php">
+          <li><a class="icons" href="iphone.php">
             <i class="fal fa-mobile"></i>
             <div class="drop__menu">
               iPhone
