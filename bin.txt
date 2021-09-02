@@ -1,0 +1,83 @@
+ <!-- <div class="title">iPHONE 12 SERIES</div>
+        <div class="iPhone_items">
+          <ul>
+            <li>
+              <img src="pic/12series/iphone12promax.jpg">
+              <h4 id="iphone_12promax">iPhone 12 Pro max</h4>
+            </li>
+            <li>
+              <img src="pic/12series/iphone12pro.jpg">
+              <h4 id="iphone_12pro">iPhone 12 Pro</h4>
+            </li>
+            <li>
+              <img src="pic/12series/iphone12.jpg">
+              <h4 id="iphone_12">iPhone 12</h4>
+            </li>
+            <li>
+              <img src="pic/12series/iphone12mini.jpg">
+              <h4 id="iphone_12mini">iPhone 12 mini</h4>
+            </li>
+          </ul>
+        </div>
+        <div class="title">iPHONE 11 SERIES</div>
+        <div class="iPhone_items">  
+          <ul>
+            <li>
+              <img src="pic/11series/iphone11promax.jpg">
+              <h4 id="iphone_11promax">iPhone 11 Pro max</h4>
+            </li>
+            <li>
+              <img src="pic/11series/iphone11pro.jpg">
+              <h4 id="iphone_11pro">iPhone 11 Pro</h4>
+            </li>
+            <li>
+              <img src="pic/11series/iphone11.jpg">
+              <h4 id="iphone_11">iPhone 11</h4>
+            </li>
+          </ul>
+        </div>
+        <div class="title">iPHONE X SERIES</div>
+        <div class="iPhone_items">
+          <ul>
+            <li><img src="pic/iPhone_xs.jpg"></li>
+            <li><img src="pic/iPhone_xs.jpg"></li>
+            <li><img src="pic/iPhone_xs.jpg"></li>
+            <li><img src="pic/iPhone_xs.jpg"></li>
+          </ul>
+        </div>
+        <div class="title">iPHONE 7 SERIES</div>
+        <div class="iPhone_items">
+          <ul>
+            <li><img src="pic/iPhone_xs.jpg"></li>
+            <li><img src="pic/iPhone_xs.jpg"></li>
+            <li><img src="pic/iPhone_xs.jpg"></li>
+            <li><img src="pic/iPhone_xs.jpg"></li>
+          </ul>
+        </div>
+        <div class="title">iPHONE 6 SERIES</div>
+        <div class="iPhone_items">
+          <ul>
+            <li><img src="pic/iPhone_xs.jpg"></li>
+            <li><img src="pic/iPhone_xs.jpg"></li>
+            <li><img src="pic/iPhone_xs.jpg"></li>
+            <li><img src="pic/iPhone_xs.jpg"></li>
+          </ul>
+        </div>
+        <div class="title">iPHONE 5 SERIES</div>
+        <div class="iPhone_items">
+          <ul>
+            <li><img src="pic/iPhone_xs.jpg"></li>
+            <li><img src="pic/iPhone_xs.jpg"></li>
+            <li><img src="pic/iPhone_xs.jpg"></li>
+            <li><img src="pic/iPhone_xs.jpg"></li>
+          </ul>
+        </div>
+        <div class="title">iPHONE 4 SERIES</div>
+        <div class="iPhone_items">
+          <ul>
+            <li><img src="pic/iPhone_xs.jpg"></li>
+            <li><img src="pic/iPhone_xs.jpg"></li>
+            <li><img src="pic/iPhone_xs.jpg"></li>
+            <li><img src="pic/iPhone_xs.jpg"></li>
+          </ul>
+        </div> -->

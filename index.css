@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.nav{
+    background: #333;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    text-align: center;
+    font-size: 25px;
+    z-index: 100;
+}
+.nav a{
+    text-decoration: none;
+    color: #f5f5f5;
+    line-height: 40px;
+}
+.backgroud{
+    width: auto;
+    background-image: url("pic/backgroud/bacgroud1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    animation: slide 25s  infinite;
+    transition: all 0.4s;
+}
+
+@keyframes slide{
+    25%{
+        background-image: url("pic/backgroud/bacgroud2.jpg");
+    }
+    50%{
+        background-image: url("pic/backgroud/bacgroud3.jpg");
+    }
+    75%{
+        background-image: url("pic/backgroud/bacgroud2.jpg");
+    }
+    100%{
+        background-image: url("pic/backgroud/bacgroud1.jpg");
+    }
+}
+.warpper{
+    position: relative;
+    top: 550px;
+    z-index: 10000;
+    text-align: center;
+}
+.warpper .list{
+    margin-bottom: 20px;
+    position: relative;
+    top: 70%;
+    bottom: 30%;
+    display: inline-block;
+    list-style-type: none;
+}
+.list button{
+    margin: 0 25px; 
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    transition: .5s;
+}
+.list button:hover{
+    height: 45px;
+    width: 130px;
+    border-radius: 6px;
+}
+.list button a{
+    text-decoration: none;
+    color: honeydew;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn_iphone{
+    border-style: ridge;
+    background-image: linear-gradient(to right,#ffbf00,#ff7dc5);
+}
+.btn_iphone a{
+    
+}.btn_macbook{
+    border-style: ridge;
+    background-image: linear-gradient(to right,#009cbe,#00e2f8);
+}
+.btn_macbook a{
+    
+}.btn_ipad{
+    border-style: ridge;
+    background-image: linear-gradient(to right,#f136ff,#7225fc);
+}
+.btn_ipad a{
+    
+}.btn_imac{
+    border-style: ridge;
+    background-image: linear-gradient(to right,#00f386,#cbe100);
+}
+.btn_imac a{
+    
+}.btn_airpods{
+    border-style: ridge;
+    background-image: linear-gradient(to right,#00c0ff,#bccaff);
+}
+.btn_airpods a{
+    
+}

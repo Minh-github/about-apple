@@ -1,0 +1,278 @@
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  } 
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  .container{
+    width: 100%;
+  }
+  .header{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header .logo{
+    width: 100%;
+    height: 40px;
+    background: #333333;
+    text-align: center;
+  }
+  .logo i{
+    color: white;
+    font-size: 26px;
+    margin: 5px;
+  }
+  .header .menu{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    transition: 0.3s;
+    z-index: 9999;
+  }
+  .white{
+    background: #f3f3f3;
+    margin-top: 40px;
+  }
+  .black{
+    margin-top: 0px;
+    background: #333333;
+    color: white;
+  }
+  .menu ul{
+    margin: auto 0;
+    width: 100%;
+    display: flex;
+  }
+  .menu ul li{
+    flex: 1;
+    display: inline-block;
+    text-align: center;
+  }
+  .menu ul li .drop__menu{
+    font-size: 12px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    transition: .2s;
+  }
+  .menu ul li a:hover{
+    color: gray;
+  }
+  .fontBlack{
+    color: black;
+  }
+  .fontWhite{
+    color: white;
+  }
+  .lightbox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 999999;
+    background-color: rgba(0, 0, 0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lightbox .lightbox__content{
+    width:70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lightbox__content .big{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .big .imgae{
+    width: 30%;
+    border-right: 2px solid lightgray; 
+  }
+  .imgae .anh{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgae .anh img{
+    width: 70%;
+  }
+  .big .more{
+    width: 70%;
+    border-radius: 10px;
+  }
+  .more .tieude{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 5%;
+  }
+  .more .mota{
+    margin: 0 auto;
+    height: 70%;
+    width: 90%;
+  }
+  .mota li{
+    list-style-type: none;
+    line-height: 1.5rem;
+  }
+  .wrapper{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;  
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .wrapper .pic__header{
+    position: relative;
+    width: 500%;
+    animation: 20s slider infinite;
+    display: flex;
+  }
+  .pic__header img{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  @keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+  }
+  .content__iphone{
+
+  }
+  .content__iphone .iphone__list{
+
+  }  
+  .content__iphone .iphone__list p{
+    font-weight: 600;
+    font-size: 25px;
+    padding: 20px 0;
+  }
+  .iphone__list .series{
+    
+  }
+  .series .iphones{
+    list-style-type: none;
+  }
+  .series .iphones button{
+    border: none;
+    background: #fff;
+    position: relative;
+    transition: .4s;
+    cursor: pointer;
+  }
+  .series .iphones button:hover{
+    transform: translateY(-10px);
+  }
+  .iphones img{
+    max-width: 150px;
+  }
+  .show{
+    display: block;
+  }
+  .content .title{
+    text-align: center;
+    margin-top: 7%;
+    width: 100%;
+    font-size: 24px;
+    font-family: tahoma;
+    font-weight: bold;
+    margin-bottom: 2%;
+    cursor: context-menu;
+  }
+  .footer{
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    display: flex;
+  }
+  .footer .info{
+    font-size: 12px;
+    text-align: left;
+    color: white;
+    margin-left: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 70%;
+  }
+  .footer .icons{
+    width: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+  }
+  .icons span a{
+    color: white;
+    transition: 0.2s;
+  }
+  .icons span a:hover{
+    color: orange;
+  }
+  #myBtn {  
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:orange;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+#myBtn:hover {
+  background-color: #333;
+  color: orange;
+}
