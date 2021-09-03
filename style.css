@@ -280,9 +280,9 @@
 
   /* ---------------------------responsive-------------------------- */
 
-  @media only screen and (max-width: 800px) {
-    .wrapper{
-      padding-bottom: 300px;
+  @media only screen and (max-width: 850px) {
+    .content__iphone{
+      margin-bottom: 100px;
     }
     .header .logo{
       height: 50px;
@@ -300,6 +300,9 @@
       display: none;
     }
     .footer{
+      position: relative;
+      top: 780px;
+      margin-top: 200px;
       width: 90%;
       transform: translateX(5%);
       border-top: lightgray 1px solid;
