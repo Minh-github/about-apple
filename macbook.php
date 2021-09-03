@@ -108,6 +108,91 @@
             </button>
           </li>
         </div>
+        <p>12 SERIES</p>
+      <div class="series">
+          <li class="iphones">
+            <button >
+              <img src="pic/12series/iphone12promax.jpg">
+              <div>iphone 12 pro max</div>
+            </button>
+            <button>
+              <img src="pic/12series/iphone12promax.jpg">
+              <div>iphone 12 pro max</div>
+            </button>
+            <button>
+              <img src="pic/12series/iphone12promax.jpg">
+              <div>iphone 12 pro max</div>
+            </button>
+          </li>
+        </div>
+        <p>12 SERIES</p>
+      <div class="series">
+          <li class="iphones">
+            <button >
+              <img src="pic/12series/iphone12promax.jpg">
+              <div>iphone 12 pro max</div>
+            </button>
+            <button>
+              <img src="pic/12series/iphone12promax.jpg">
+              <div>iphone 12 pro max</div>
+            </button>
+            <button>
+              <img src="pic/12series/iphone12promax.jpg">
+              <div>iphone 12 pro max</div>
+            </button>
+          </li>
+        </div>
+        <p>12 SERIES</p>
+      <div class="series">
+          <li class="iphones">
+            <button >
+              <img src="pic/12series/iphone12promax.jpg">
+              <div>iphone 12 pro max</div>
+            </button>
+            <button>
+              <img src="pic/12series/iphone12promax.jpg">
+              <div>iphone 12 pro max</div>
+            </button>
+            <button>
+              <img src="pic/12series/iphone12promax.jpg">
+              <div>iphone 12 pro max</div>
+            </button>
+          </li>
+        </div>
+        <p>12 SERIES</p>
+      <div class="series">
+          <li class="iphones">
+            <button >
+              <img src="pic/12series/iphone12promax.jpg">
+              <div>iphone 12 pro max</div>
+            </button>
+            <button>
+              <img src="pic/12series/iphone12promax.jpg">
+              <div>iphone 12 pro max</div>
+            </button>
+            <button>
+              <img src="pic/12series/iphone12promax.jpg">
+              <div>iphone 12 pro max</div>
+            </button>
+          </li>
+        </div>
+        <p>12 SERIES</p>
+      <div class="series">
+          <li class="iphones">
+            <button >
+              <img src="pic/12series/iphone12promax.jpg">
+              <div>iphone 12 pro max</div>
+            </button>
+            <button>
+              <img src="pic/12series/iphone12promax.jpg">
+              <div>iphone 12 pro max</div>
+            </button>
+            <button>
+              <img src="pic/12series/iphone12promax.jpg">
+              <div>iphone 12 pro max</div>
+            </button>
+          </li>
+        </div>
       </ul>
       </div>
     </div>

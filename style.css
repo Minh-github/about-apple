@@ -214,9 +214,11 @@
     font-weight: 600;
     font-size: 25px;
     padding: 20px 0;
+    border-top: lightgray 1px solid;
   }
   .series .iphones{
     list-style-type: none;
+    margin-bottom: 30px;
   }
   .series .iphones button{
     border: none;
@@ -245,6 +247,7 @@
     cursor: context-menu;
   }
   .footer{
+    margin-top: 100px;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -301,8 +304,6 @@
     }
     .footer{
       position: relative;
-      top: 780px;
-      margin-top: 200px;
       width: 90%;
       transform: translateX(5%);
       border-top: lightgray 1px solid;
