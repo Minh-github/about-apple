@@ -42,7 +42,7 @@
       </div>
       <div class="menu">
         <ul>
-          <li><a class="icons" href="iphone.php">
+          <li><a class="icons" href="index.php">
             <i class="fal fa-mobile"></i>
             <div class="drop__menu">
               iPhone
@@ -116,9 +116,9 @@
 			<span>Copyright © 2021 Phamminh Inc. All rights reserved.</span>
 		</span>
 		<span class="icons">
-			<span><a href="#" target="blank"><span class="fab fa-facebook-f"></span></a></span>
-			<span><a href="#" target="blank"><span class="fab fa-twitter"></span></a></span>
-			<span><a href="#" target="blank"><span class="fab fa-instagram"></span></a></span>
+			<span><a href="#" target="blank"><span class="fb fab fa-facebook-f"></span></a></span>
+			<span><a href="#" target="blank"><span class="tw fab fa-twitter"></span></a></span>
+			<span><a href="#" target="blank"><span class="ig fab fa-instagram"></span></a></span>
 		</span>
     </div>
   </div>
