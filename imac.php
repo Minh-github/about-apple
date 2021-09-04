@@ -35,14 +35,48 @@
     });
     </script>
 <body>
-  <div class="container">  
+  <div class="container">
+    <div class="header__mobile">
+    <input type="checkbox" name="" hidden class="nav__input" id="nav-mobile-input">
+    <label for="nav-mobile-input" class="nav__overlay"></label>
+      <label for="nav-mobile-input" class="menu__mb">
+        <ul class="nav__mb">
+          <li class="items__mb"><a class="icons__mb" href="iphone.php">
+            <div class="drop__menu__mb">
+              iPhone
+            </div>
+          </a></li>
+          <li class="items__mb"><a class="icons__mb" href="ipad.php">
+            <div class="drop__menu__mb">
+              iPad
+            </div>
+          </a></li>
+          <li class="items__mb"><a class="icons__mb" href="macbook.php">
+            <div class="drop__menu__mb">
+              Macbook
+            </div>
+          </a></li>
+          <li class="items__mb"><a class="icons__mb" href="imac.php">
+            <div class="drop__menu__mb">
+              iMac
+            </div>
+          </a></li>
+          <li class="items__mb"><a class="icons__mb" href="airpods.php">
+            <div class="drop__menu__mb">
+              Airpods Max
+            </div>
+          </a></li>
+        </ul>
+      </label>
+    </div>  
     <div class="header">
       <div class="logo">
-      <a href="index.php"><i class="fab fa-apple"></i></a>
+      <label for="nav-mobile-input" class="btn__menu"><i class="bars fas fa-bars"></i></label>
+      <a href="index.php"><i class="apple fab fa-apple"></i></a>
       </div>
       <div class="menu">
         <ul>
-          <li><a class="icons" href="index.php">
+          <li><a class="icons" href="iPhone.php">
             <i class="fal fa-mobile"></i>
             <div class="drop__menu">
               iPhone

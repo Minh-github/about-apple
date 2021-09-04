@@ -27,34 +27,17 @@
     background: #333333;
     text-align: center;
   }
-  .logo .bars{
+  .header .logo .btn__menu{
     flex: 0;
-    position: relative;
-    left: 1%; 
+    position: absolute;
+    left: 10px;
     display: none;
   }
-  .nav__mobile{
-    position: fixed;
-    z-index: 99999;
-    top: 0;
-    bottom: 0;
-    width: 300px;
-    background-color: #fff;
-    display: none;
-  }
-  .nav__overlay{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.25);
-  }
-  .logo i{
+  .logo .apple{
     flex: 1;
     position: absolute;
     left: 48.8%;
-    z-index: 1000000;
+    z-index: 10;
     color: white;
     font-size: 26px;
     margin: 5px;
@@ -65,7 +48,7 @@
     width: 100%;
     display: flex;
     transition: 0.3s;
-    z-index: 9999;
+    z-index: 10;
   }
   .white{
     background: #f3f3f3;
@@ -101,65 +84,6 @@
   }
   .fontWhite{
     color: white;
-  }
-  .lightbox{
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 999999;
-    background-color: rgba(0, 0, 0,0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .lightbox .lightbox__content{
-    width:70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .lightbox__content .big{
-    height: 500px;
-    width: 100%;
-    display: flex;
-    background-color: white;
-    border-radius: 10px;
-  }
-  .big .imgae{
-    width: 30%;
-    border-right: 2px solid lightgray; 
-  }
-  .imgae .anh{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .imgae .anh img{
-    width: 70%;
-  }
-  .big .more{
-    width: 70%;
-    border-radius: 10px;
-  }
-  .more .tieude{
-    width: 100%;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 10%;
-    margin-top: 5%;
-  }
-  .more .mota{
-    margin: 0 auto;
-    height: 70%;
-    width: 90%;
-  }
-  .mota li{
-    list-style-type: none;
-    line-height: 1.5rem;
   }
   .wrapper{
     width: 100%;
@@ -280,6 +204,59 @@
   .icons span a:hover{
     color: orange;
   }
+  /* ----------------------------mobile---------------------------- */
+
+  .header__mobile{
+    display: flex;
+    background-color: #333333;
+    flex-wrap: nowrap;
+    position: fixed;
+    display: none;
+    z-index: 9;
+  }
+  .nav__overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: none;
+  }
+  .menu__mb{
+    flex: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    z-index: 9;
+    background-color: #333333;
+    transform: translateY(-100%); 
+    transition: all linear 0.3s;
+
+  }
+  .nav__input:checked ~ .nav__overlay{
+    display: block;
+  }
+  .nav__input:checked ~ .menu__mb{
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  .nav__input:checked ~ .btn__menu{
+    display: none;
+  }
+  .menu__mb ul{
+    margin-top: 70px;
+  }
+  .menu__mb .items__mb .icons__mb{
+    text-decoration: none;
+    color: #fff;
+  }
+  .drop__menu__mb{
+    margin-top: 20px;
+    margin-left: 15px;
+  }
 
   /* ---------------------------responsive-------------------------- */
 
@@ -287,17 +264,25 @@
     .content__iphone{
       margin-bottom: 100px;
     }
+    .header__mobile{
+      display: block;
+    }
+    .header .logo .btn__menu{
+      cursor: pointer;
+      display: block;
+    }
     .header .logo{
       height: 50px;
       position: fixed;
-      z-index: 999999;
+      z-index: 10;
     }
-    .logo .bars{
-      display: block;
-    }
-    .logo i{
+    .logo .apple{
       font-size: 36px;
       line-height: 36px;
+    }
+    .logo .bars{
+      line-height: 50px;
+      color: white;
     }
     .header .menu{
       display: none;
