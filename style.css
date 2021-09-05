@@ -256,6 +256,11 @@
   .drop__menu__mb{
     margin-top: 20px;
     margin-left: 15px;
+    color: #fff;
+    transition: all .1s;
+  }
+  .drop__menu__mb:hover{
+    color: lightgray;
   }
 
   /* ---------------------------responsive-------------------------- */
